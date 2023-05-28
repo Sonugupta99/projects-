@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    background-color: bisque;
+  }
+/* Style the form container */
+.formContainer {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the heading */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style the horizontal line */
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Style the checkbox and its label */
+  input[type="checkbox"] {
+    margin-bottom: 16px;
+  }
+  
+  /* Style the Terms & Privacy link */
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  
+  /* Style the cancel and sign-up buttons */
+  .cancel,
+  .signup {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Align the cancel button to the left */
+  .cancel {
+    float: left;
+  }
+  
+  /* Align the sign-up button to the right */
+  .signup {
+    float: right;
+  }
+  
